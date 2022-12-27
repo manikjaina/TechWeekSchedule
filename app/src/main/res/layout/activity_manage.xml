@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".ManageActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_information"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+
+        />
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_mode"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:id="@+id/edActivityMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvId"
+        app:layout_constraintLeft_toRightOf="@id/tvId"
+
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        app:layout_constraintTop_toBottomOf="@id/tvId"
+        app:layout_constraintStart_toStartOf="@id/tvId"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvName"
+        app:layout_constraintLeft_toRightOf="@id/tvName"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        app:layout_constraintStart_toStartOf="@id/tvName"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:id="@+id/edDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvDescription"
+        app:layout_constraintStart_toStartOf="@id/edName"
+        android:layout_marginLeft="50sp"
+        android:textColor="@color/white"
+
+        />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        app:layout_constraintTop_toBottomOf="@id/tvDescription"
+        app:layout_constraintStart_toStartOf="@id/tvName"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:id="@+id/edTime1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+
+        app:layout_constraintBaseline_toBaselineOf="@id/tvTime"
+        app:layout_constraintStart_toStartOf="@id/edDescription"
+        android:textColor="@color/white"
+
+
+        />
+
+    <EditText
+        android:id="@+id/edTime2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+
+        app:layout_constraintBaseline_toBaselineOf="@id/edTime1"
+        app:layout_constraintLeft_toRightOf="@id/edTime1"
+
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:id="@+id/tvLearning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learning Activity"
+        app:layout_constraintTop_toBottomOf="@id/tvTime"
+        app:layout_constraintStart_toStartOf="@id/tvName"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rgLearningActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/tvLearning"
+        app:layout_constraintStart_toStartOf="@id/tvLearning">
+        <RadioButton
+            android:id="@+id/rbLecture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lecture"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/rbWorkshop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workshop"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/rbProject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Project demo"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/day"
+        app:layout_constraintTop_toBottomOf="@id/rgLearningActivity"
+        app:layout_constraintStart_toStartOf="@id/tvName"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rgDay"
+        android:layout_width="140dp"
+        android:layout_height="221dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="@id/tvLearning"
+        app:layout_constraintTop_toBottomOf="@id/tvDay">
+
+        <RadioButton
+            android:id="@+id/rbMonday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/v_day1"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbTuesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/v_day2"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbWednesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/v_day3"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:id="@+id/rbThursday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/v_day4"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:id="@+id/rbFriday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/v_day5"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language"
+        app:layout_constraintTop_toBottomOf="@id/rgDay"
+        app:layout_constraintStart_toStartOf="@id/tvName"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+
+
+    <CheckBox
+        android:id="@+id/chEnglish"
+        android:layout_width="123dp"
+        android:layout_height="45dp"
+        android:text="@string/english"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/tvLanguage"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvLanguage"
+        android:textColor="@color/white"/>
+
+    <CheckBox
+        android:id="@+id/chFrench"
+        android:layout_width="124dp"
+        android:layout_height="0dp"
+        android:text="@string/french"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/chEnglish"
+        app:layout_constraintBaseline_toBaselineOf="@id/chEnglish"
+        android:textColor="@color/white"/>
+
+
+
+
+    <Button
+        android:id="@+id/btnAddActivity"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        app:layout_constraintTop_toBottomOf="@id/chEnglish"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintStart_toStartOf="@id/tvName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textAllCaps="false"
+        />
+
+
+    <Button
+        android:id="@+id/btnActivity"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+
+        android:text="@string/activities"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@id/btnAddActivity"
+        app:layout_constraintLeft_toRightOf="@id/btnAddActivity"
+        app:layout_constraintTop_toTopOf="@id/btnAddActivity"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+
+        android:text="Return"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@id/btnAddActivity"
+        app:layout_constraintLeft_toRightOf="@id/btnActivity"
+        app:layout_constraintTop_toTopOf="@id/btnAddActivity"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

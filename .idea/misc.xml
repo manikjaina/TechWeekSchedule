@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/techweek final version/TechWeekSchedule23/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/techweek final version/TechWeekSchedule23/app/src/main/res/layout/activity_main4.xml" value="0.27291666666666664" />
+        <entry key="..\:/techweek jaina version/TechWeekSchedule23/app/src/main/res/layout/activity_main4.xml" value="0.27291666666666664" />
+        <entry key="..\:/techweek sprint 2/TechWeekSchedule23/app/src/main/res/layout/activity_login.xml" value="0.27291666666666664" />
+        <entry key="..\:/techweek sprint 2/TechWeekSchedule23/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/techweek sprint 2/TechWeekSchedule23/app/src/main/res/layout/activity_main2.xml" value="0.27291666666666664" />
+        <entry key="..\:/techweek sprint 2/TechWeekSchedule23/app/src/main/res/layout/activity_main3.xml" value="0.27291666666666664" />
+        <entry key="..\:/techweek sprint 2/TechWeekSchedule23/app/src/main/res/layout/activity_main4.xml" value="0.27291666666666664" />
+        <entry key="..\:/techweek sprint 2/TechWeekSchedule23/app/src/main/res/layout/activity_manage.xml" value="0.25885416666666666" />
+        <entry key="..\:/techweek sprint 2/TechWeekSchedule23/app/src/main/res/layout/activity_presenter_activities_list.xml" value="0.17864583333333334" />
+        <entry key="..\:/techweek sprint 2/TechWeekSchedule23/app/src/main/res/layout/activity_presenter_profile.xml" value="0.27291666666666664" />
+        <entry key="..\:/techweek sprint 2/TechWeekSchedule23/app/src/main/res/layout/activity_registration.xml" value="0.27291666666666664" />
+        <entry key="..\:/techweek sprint 2/TechWeekSchedule23/app/src/main/res/layout/content_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/techweek sprint 2/TechWeekSchedule23/app/src/main/res/layout/content_registration.xml" value="0.27291666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
