@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "733819684481",
+    "firebase_url": "https://prjaldodb-default-rtdb.firebaseio.com",
+    "project_id": "prjaldodb",
+    "storage_bucket": "prjaldodb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733819684481:android:f82782a14c723aa0276f80",
+        "android_client_info": {
+          "package_name": "com.example.techweekschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733819684481-5q4bpstrp4s1dbhiv8gtho53gr1n27ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5oLvevhvwNU3GUqpssrjG9QWXM8wAXhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733819684481-5q4bpstrp4s1dbhiv8gtho53gr1n27ii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733819684481:android:c3b35c1d24c1b71b276f80",
+        "android_client_info": {
+          "package_name": "com.exmaple.prjTechWeekSchedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733819684481-5q4bpstrp4s1dbhiv8gtho53gr1n27ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5oLvevhvwNU3GUqpssrjG9QWXM8wAXhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733819684481-5q4bpstrp4s1dbhiv8gtho53gr1n27ii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
